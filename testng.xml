@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" parallel="classes" thread-count="2">
+    <test name="Regression1"   >
+        <classes>
+            <class name="com.zoomdata.demo.LoginTest" />
+            <class name="com.zoomdata.demo.DonutTest" />
+            <class name="com.zoomdata.demo.InheriteAttributeTest" />
+            <class name="com.zoomdata.demo.BottomTimeLineTest" />
+            <class name="com.zoomdata.demo.AdvancedTest" />
+        </classes>
+    </test>
+</suite>
